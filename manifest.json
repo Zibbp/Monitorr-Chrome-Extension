@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "ZPDV Launcher",
+    "description": "Quick launch ZPDV media",
+    "version": "1.0.0",
+    "icons": {"128" : "icon_128.png"},
+    "browser_action": {
+        "deafault_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_security_policy": "script-src 'self'; object-src 'self' ",
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "https://ajax.googleapis.com/",
+    "<all_urls>"
+  ]
+
+    
+}
